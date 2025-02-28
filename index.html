@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+</head>
+<style>
+    body{
+        background-color: rgb(71, 68, 68);
+    }
+
+    .container{
+            width: 350px;
+            height: 330px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+            margin-top: 150px;
+            background-color: rgb(81, 80, 80);             
+    }
+    .container form{
+        /* padding-top: 100px; */
+    }
+    .container form input{
+        width: 250px;
+        height: 20px;
+        border-radius: 5px;
+        text-align: center;
+        margin: 7px;
+        /* display: flex;
+        flex-direction: row; */
+        background-color: rgb(145, 140, 140);
+    }
+    .container form input:hover{
+    background-color: rgb(71, 68, 68);
+    }
+.container form button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 7px;
+    background-color: rgb(145, 140, 140);
+}
+.container button:hover{
+    background-color: rgb(71, 68, 68);
+}
+.container form button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+</style>
+<body>
+    <div class="container">
+        <form>
+            <h1>Login</h1>
+            <label >
+                <input type="text" placeholder="Enter First Name" required>
+            </label><br>
+            <label >
+                <input type="text" placeholder="Enter Last Name" required>
+            </label><br>
+            <label >
+                <input type="password" placeholder="Enter Youer Password" required>
+            </label><br>
+            <label >
+                <input type="password" placeholder="Enter Youer Password" required>
+            </label><br>
+            <button><a href="./login.html">Login</a></button>
+        </form>
+    </div>
+</body>
+</html>
